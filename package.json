@@ -1,0 +1,43 @@
+{
+  "name": "workout_tracker_api",
+  "version": "1.0.0",
+  "description": "",
+	"main": "index.js",
+	 "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+		"start": "node index.js",
+		"production": "NODE_ENV=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic8baller/workout_tracker_api.git"
+  },
+  "keywords": [],
+  "author": "Leslie T",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magic8baller/workout_tracker_api/issues"
+  },
+  "homepage": "https://github.com/magic8baller/workout_tracker_api#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "morgan": "^1.9.1",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^7.18.1",
+    "winston": "^3.2.1"
+  }
+}
