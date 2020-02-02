@@ -1,0 +1,6 @@
+config.json
+.env
+.vscode
+
+node_modules/
+configure_db.sh

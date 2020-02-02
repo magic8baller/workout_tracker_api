@@ -5,9 +5,12 @@
 	"main": "index.js",
 	 "type": "module",
   "scripts": {
-    "dev": "nodemon index.js",
-		"start": "node index.js",
-		"production": "NODE_ENV=production node index.js"
+    "dev": "NODE_ENV=development nodemon src/index.js",
+		"start": "node src/index.js",
+		"configure": "./bin/configure_db.sh",
+		
+		"production": "NODE_ENV=production node src/index.js",
+		"test": "jest --colors"
   },
   "repository": {
     "type": "git",
