@@ -29,8 +29,7 @@ const logger = winston.createLogger({
 			format: winston.format.combine(
 				filterByLevel('info'),
 				winston.format.timestamp(),
-				winston.format.json(),
-				winston.format.prettyPrint()
+				winston.format.json()
 			),
 			filename: `${__dirname}/info.log`,
 		}),
